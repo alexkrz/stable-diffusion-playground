@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VSCode
+.vscode
+
+# PyCharm
+.idea
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model Checkpoints
+checkpoints/*
+
+# Generated Images
+images/*

@@ -1,0 +1,15 @@
+name: sdiff
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - pip
+  - python=3.10.*
+  - pytorch=1.12.*
+  - torchvision=0.13.*
+  - cudatoolkit=11.3.*
+  - pip:
+    - diffusers
+    - transformers
+    - accelerate
